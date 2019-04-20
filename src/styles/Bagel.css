@@ -1,0 +1,33 @@
+.bagel-img {
+    width: 200px;
+    height: 150px;
+}
+.bagel-card-container {
+    width: 26vw;
+    height: 40vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #E8EEF2;
+    margin-top: 1vw;
+}
+.bagel-name {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.bagel-button {
+    border: 1px solid #77B6EA;
+    background: #B5D6B2;
+    color: black;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+.bagel-button:hover {
+    color: #D10000;
+    background-color: #c5e9c1;
+}
+.bagel-button:focus {
+    outline: none;
+}
